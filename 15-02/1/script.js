@@ -6,7 +6,7 @@
 
 
 
-
+// 2)
 let name1 = 'Aliya';
 let name2 = name1
 
