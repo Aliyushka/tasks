@@ -9,13 +9,13 @@ console.log(result); //false
 let num3 = 8;
 let num4 = 5;
 let result2 = num3 ===5 && num4 ===5;
-console.log(result); //false
+console.log(result2); //false
 
 
 // 3) false + false = false
 let num5 = 7;
 let num6 = 5;
-let result3 = num5 ===3 && num6 ==3;
+let result3 = num5 ===3 && num6 ===3;
 console.log(result3);  //false
 
 // 4) true + true = true
