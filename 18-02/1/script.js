@@ -23,7 +23,7 @@ let a = 17;
 let b = 10;
 let c = a - 10;
 let d = 7;
-let result = c * d;
+let result = c + d;
 console.log(result);
 
 
