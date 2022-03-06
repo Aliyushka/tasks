@@ -20,7 +20,7 @@ setTimeout(funcs,   8000, 'Hello after 8 seconds');
 function mul(n,m) {
     return n * m;
 }
- console.log(mul)
+ console.log(mul(5,10))
 
 
 /*
@@ -31,15 +31,15 @@ function mul(n,m) {
 
     factorial(7); //1*2*3*4*5*6*7 //5040*/
 
-function myFunc(yourFunc) {
-    let str = 1;
-    for (let i =1; i <= yourFunc; i++) {
+function myFunc(num) {
+    let sum = 1;
+    for (let i =1; i <= num; i++) {
         str *= i;
     }
-    return str;
+    return sum;
 }
-let str = myFunc(7);
-console.log(str);
+let sum = myFunc(7);
+console.log(result);
 
 
 
