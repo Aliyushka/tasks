@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window{
+    border-radius: 8px;
+    position: absolute;
+    width: 640px;
+    height: 496px;
+    color: black;
+    padding: 40px 24px;
+    background: #FFFFFF;
+}
+
+.window-title{
+    font-family: 'Sora', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
+
+.personal{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.personal-inputs input{
+    width: 171px;
+    height: 48px;
+    margin: 2px;
+    border-radius: 8px;
+    border: 0.5px solid #AEAEAE;
+    padding: 0 16px;
+    margin-top: -8px;
+}
+.personal-inputs text{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #DADADA;
+}
+
+.passport-text{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: -8px;
+}
+.passport input{
+    width: 171px;
+    height: 48px;
+    margin: 3px;
+    border-radius: 8px;
+    border: 0.5px solid #AEAEAE;
+    padding: 0 16px;
+    margin-top: 15px;
+}
+
+.place input, .issue1 input{
+    width: 384px;
+}
+
+.block-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-1 img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 13px;
+}
+
+.birthday,.issue{
+    position: relative;
+}
+
+.birthday img, .issue img{
+    position: absolute;
+    right: 13px;
+    margin-top: 29px;
+}
+
+
+button{
+    position: absolute;
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 19%;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}

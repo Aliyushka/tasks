@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form1</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="main">
+    <div class="window">
+        <p class="window-title">Анкета  для корпоративных клиентов</p>
+        <div class="personal">
+            <p>Личные данные</p>
+            <form class="personal-inputs">
+                <input id="surname" type="text" placeholder="Фамилия" class="sir">
+                <input id="firstname" type="text" placeholder="Имя" class="first">
+                <input id="givename"type="text" placeholder="Отчество" class="give">
+            </form>
+        </div>
+        <div class="passport">
+            <p class="passport-text">Паспортные данные</p>
+            <form class="block-1">
+                <div class="birthday">
+                    <input id="dateBirth" type="date" placeholder="Дата рождения" class="date">
+                </div>
+                <div class="place">
+                    <input id="liveadress" class="text" placeholder="Место проживания по прописке" class="adress">
+                </div>
+                <input id="AN" type="text" placeholder="Серийный номер AN/ID" class="ID">
+                <input id="Inn" type="text" placeholder="ИНН" class="iNN">
+                <input id="isSue" type="date" placeholder="Дата получения" class="issuE">
+                <input id="number" type="number" placeholder="Контактный номер" class="contactnumber">
+                <input id="email" type="text" placeholder="Электронный адрес" class="mail">
+                <input id="bank" type="text" placeholder="Наименование банка" class="nameofbank">
+                <input id="fact" class="text" placeholder="Фактическое место проживания" onclick="factadress">
+            </form>
+        </div>
+        <div class="btn"><button id="formOne">Далее</a></button></div>
+    </div>
+</div>
+<script src="script1.js"></script>
+</body>
+</html>
